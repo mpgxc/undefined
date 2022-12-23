@@ -1,0 +1,57 @@
+<mxfile host="65bd71144e">
+    <diagram id="zTftvyYKZT6MZZsTSmnK" name="Página-1">
+        <mxGraphModel dx="1556" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;fontColor=#1A1A1A;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1A1A1A;" edge="1" parent="1" source="3" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Orders Service" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-30" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;fontColor=#1A1A1A;" edge="1" parent="1" source="7" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="7" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Order Tracking Service" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="17" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Use Cases / Services" style="swimlane;fontColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="320" width="260" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="RegisterNotification" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="27">
+                    <mxGeometry x="45" y="45" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="RegisterOrderTracking" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="27">
+                    <mxGeometry x="45" y="125" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="130" y="70" width="230" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font&gt;Kafka Messages&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="29" vertex="1">
+                    <mxGeometry x="40" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;font color=&quot;#ffffff&quot;&gt;RegisterOrder&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#1A1A1A;gradientColor=none;" vertex="1" parent="29">
+                    <mxGeometry x="110" y="160" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;fontColor=#1A1A1A;entryX=0.375;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="29" source="2" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="Message Broker" style="swimlane;fontColor=#FFFFFF;gradientColor=none;" vertex="1" parent="29">
+                    <mxGeometry width="230" height="230" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
